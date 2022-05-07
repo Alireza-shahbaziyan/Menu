@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./image/astronaut-11080.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#menu_icon a{
+    color: #fff;
+    font-size: 2rem;
+    position: fixed;
+    margin: 1rem;
+    padding: 0.5rem;
+    position: absolute;
+    background-color: #001133;
+}
+
+.main_menu{
+    width: 20%;
+    height: 100vh;
+    background-color: #00001a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.title{
+    color: #fff;
+    font-size: 1.5rem;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+
+}
+.title a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.buttons{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15%;
+    background-color: #000033;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #000;
+    transition: 0.5s;
+    
+}
+.button:hover{
+    padding-left: 20%;
+}
+.text_button{
+    padding-left: 0.5rem;
+}
